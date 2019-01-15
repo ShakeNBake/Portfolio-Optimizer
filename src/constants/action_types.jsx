@@ -1,0 +1,1 @@
+export default const TEST_ACTION_CONSTANT='TEST_ACTION_CONSTANT';

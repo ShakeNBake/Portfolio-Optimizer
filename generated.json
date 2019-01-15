@@ -1,0 +1,61 @@
+{
+  "portfolio": {
+    "positions": [
+      {
+        "ticker": "AAPL",
+        "quantity": 555555
+      },
+      {
+        "ticker": "GOOG",
+        "quantity": 666
+      },
+      {
+        "ticker": "TSLA",
+        "quantity": 8888
+      }
+    ]
+  },
+  "universe": {
+    "sp500": [
+      {
+        "ticker": "AAPL",
+        "variance": 555555,
+        "expected_return": 123
+      },
+      {
+        "ticker": "GOOG",
+        "variance": 555555,
+        "expected_return": 123
+      },
+      {
+        "ticker": "TSLA",
+        "variance": 555555,
+        "expected_return": 123
+      }
+    ],
+    "russell1000": [
+      {
+        "ticker": "MSFT",
+        "variance": 555555,
+        "expected_return": 123
+      },
+      {
+        "ticker": "OFI",
+        "variance": 555555,
+        "expected_return": 123
+      }
+    ]
+  },
+  "constraints": [
+    {
+      "name": "ror",
+      "min": 55,
+      "max": 666
+    },
+    {
+      "name": "risk/vol",
+      "min": 66,
+      "max": 777
+    }
+  ]
+}

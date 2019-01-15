@@ -8,7 +8,7 @@ module.exports = {
   resolve: {
     extensions: ['', '.js', '.jsx']
   },
-  entry: ['babel-polyfill',path.resolve(__dirname, 'app/index.jsx')],
+  entry: ['babel-polyfill',path.resolve(__dirname, 'src/index.jsx')],
   output: {
     path: path.resolve(__dirname, 'dev'),
     filename: 'bundle.js'
@@ -22,7 +22,7 @@ module.exports = {
       poll: 1000
     }
   },
-  devtool: 'source-map',
+ devtool: 'cheap-module-source-map',
   module: {
     loaders: [
      {

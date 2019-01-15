@@ -1,0 +1,3 @@
+.sidebar .logo .simple-text, body>.navbar-collapse .logo .simple-text{
+	    text-transform: none;
+}

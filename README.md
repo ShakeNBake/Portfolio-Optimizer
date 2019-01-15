@@ -1,4 +1,4 @@
-# RPSGame_React
+# Portfolio Optimizer
 
 STEPS to RUn The application
 ```
