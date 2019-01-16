@@ -1,0 +1,25 @@
+# Models
+
+## Select an Existing Model to EDIT or |ADD NEW|
+
+| Select Model V |       <-- a dropdown selector
+Options:
+id: 123 | value: "Maximize Sharpe" | selected=yes
+id: 234 | value: "Minimize Vol"    | selected=no
+
+__________________________________________________________________________   (part below reflects the dropdown selection above) 
+
+## Define Optimization Model
+
+Constraint Name | Constraint Type | 
+----------------|-----------------|    
+# of Holdings   | Range    | Minimum: |__30_| Maximum: |__30_|
+Sharpe Ratio    | Maximize | (o) |        
+Risk            | Minimize | ( ) |        
+
+~~~~~~~~~~~~~~~~~~~~~~
+| Add New Constraint |
+~~~~~~~~~~~~~~~~~~~~~~
+                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~             ~~~~~~~~~~~~
+                    Name: | Maximize Sharpe                   |             |  SAVE    |
+                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~             ~~~~~~~~~~~~
